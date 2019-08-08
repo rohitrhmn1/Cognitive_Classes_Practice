@@ -17,6 +17,17 @@
 
 # Tuples and Lists
 # Files
-with open("./FileOne/Files/test_1.txt", "w") as file1:
-    file1.write("Your text goes here")
-file1.close()
+# with open("./FileOne/Files/test_1.txt", "w") as file1:
+#     file1.write("Your text goes here")
+# file1.close()
+
+# Working with Pandas
+
+import pandas as pd
+
+csv_path = "File1.csv"
+# df = pd.read_csv(csv_path)  # df stands for DataFrame
+# df.head()
+df = pd.DataFrame({'a': [11, 21, 31], 'b': [21, 22, 23]})
+print(df.head(3))
+print(df['b'])
