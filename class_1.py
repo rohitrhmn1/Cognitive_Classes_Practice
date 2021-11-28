@@ -17,7 +17,7 @@
 
 # Tuples and Lists
 # Files
-# with open("./FileOne/Files/test_1.txt", "w") as file1:
+# with open("./Python-DataScience/Files/test_1.txt", "w") as file1:
 #     file1.write("Your text goes here")
 # file1.close()
 
